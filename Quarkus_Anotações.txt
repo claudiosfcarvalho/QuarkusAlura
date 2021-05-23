@@ -1,0 +1,10 @@
+Quarkus
+
+Características
+-Rápido Startup
+-Baixo consumo de memória
+-Escalabilidade instantânea
+-Modo desenvolvedor
+-Imperativo e reativo 
+-Imagem nativa (pode gerar um executavel para executar mais rápido ainda)
+-Processamento em Build Time
