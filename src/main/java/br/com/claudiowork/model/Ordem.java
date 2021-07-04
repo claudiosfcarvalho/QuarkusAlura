@@ -27,5 +27,5 @@ public class Ordem extends PanacheEntityBase {
     private String status;
 
     @Column(name = "user_id")
-    private int userId;
+    private Long userId;
 }

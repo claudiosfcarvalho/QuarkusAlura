@@ -8,3 +8,6 @@ Características
 -Imperativo e reativo 
 -Imagem nativa (pode gerar um executavel para executar mais rápido ainda)
 -Processamento em Build Time
+
+Container First - O framework foi otimozado para ter baixo custo de memória e um statup rápidoo.
+O Quarkus faz o máximo de processamento da aplicação em tempo de construção (Build Time).
