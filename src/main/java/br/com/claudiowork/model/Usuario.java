@@ -11,6 +11,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.json.bind.annotation.JsonbTransient;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -48,5 +49,10 @@ public class Usuario extends PanacheEntityBase {
 
     private static String validarUsername(String username) {
         return username.equalsIgnoreCase("alura") ? Role.ADMIN.name() : Role.USER.name();
+    }
+
+    @JsonbTransient
+    public String getPassword(){
+        return password;
     }
 }

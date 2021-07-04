@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.json.bind.annotation.JsonbTransient;
 import javax.persistence.*;
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -28,4 +29,9 @@ public class Ordem extends PanacheEntityBase {
 
     @Column(name = "user_id")
     private Long userId;
+
+    @JsonbTransient
+    public Long getId(){
+        return id;
+    }
 }
