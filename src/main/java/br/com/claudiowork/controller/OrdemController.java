@@ -1,8 +1,10 @@
 package br.com.claudiowork.controller;
 
 import br.com.claudiowork.model.Ordem;
+import br.com.claudiowork.model.Role;
 import br.com.claudiowork.repository.OrdemRepository;
 
+import javax.annotation.security.RolesAllowed;
 import javax.inject.Inject;
 import javax.transaction.Transactional;
 import javax.ws.rs.Consumes;
@@ -13,11 +15,13 @@ import java.time.LocalDate;
 
 @Path("/ordens")
 public class OrdemController {
+
     @Inject
     OrdemRepository ordemRepository;
 
     @POST
     @Transactional
+    @RolesAllowed("USER")
     @Consumes(MediaType.APPLICATION_JSON)
     public void inserir(Ordem ordem) {
         ordem.setData(LocalDate.now());

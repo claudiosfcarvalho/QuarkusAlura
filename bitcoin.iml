@@ -172,16 +172,6 @@
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:8.0.24" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-hibernate-orm-panache:1.13.4.Final" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-hibernate-orm:1.13.4.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.quarkus:quarkus-agroal:1.13.4.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.quarkus:quarkus-datasource:1.13.4.Final" level="project" />
-    <orderEntry type="library" name="Maven: org.jboss.narayana.jta:narayana-jta:5.10.6.Final" level="project" />
-    <orderEntry type="library" name="Maven: org.jboss:jboss-transaction-spi:7.6.0.Final" level="project" />
-    <orderEntry type="library" name="Maven: org.jboss.spec.javax.resource:jboss-connector-api_1.7_spec:1.0.0.Final" level="project" />
-    <orderEntry type="library" name="Maven: org.jboss.narayana.jts:narayana-jts-integration:5.10.6.Final" level="project" />
-    <orderEntry type="library" name="Maven: io.agroal:agroal-api:1.11" level="project" />
-    <orderEntry type="library" name="Maven: io.agroal:agroal-narayana:1.11" level="project" />
-    <orderEntry type="library" name="Maven: io.agroal:agroal-pool:1.11" level="project" />
-    <orderEntry type="library" name="Maven: io.quarkus:quarkus-credentials:1.13.4.Final" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-narayana-jta:1.13.4.Final" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-mutiny:1.13.4.Final" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-smallrye-context-propagation:1.13.4.Final" level="project" />
@@ -203,7 +193,6 @@
     <orderEntry type="library" name="Maven: org.glassfish.jaxb:txw2:2.3.3-b02" level="project" />
     <orderEntry type="library" name="Maven: com.sun.istack:istack-commons-runtime:3.0.10" level="project" />
     <orderEntry type="library" name="Maven: org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:2.0.0.Final" level="project" />
-    <orderEntry type="library" name="Maven: jakarta.persistence:jakarta.persistence-api:2.2.3" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate:quarkus-local-cache:0.1.0" level="project" />
     <orderEntry type="library" name="Maven: com.github.ben-manes.caffeine:caffeine:2.9.0" level="project" />
     <orderEntry type="library" name="Maven: com.google.errorprone:error_prone_annotations:2.2.0" level="project" />
@@ -252,5 +241,27 @@
     <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-compiler-api:2.8.4" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.plexus:plexus-compiler-manager:2.8.4" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.plexus:plexus-compiler-javac:2.8.4" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-security-jpa:1.13.4.Final" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.persistence:jakarta.persistence-api:2.2.3" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-security:1.13.4.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-elytron-security-common:1.13.4.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.wildfly.security:wildfly-elytron-credential:1.15.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.wildfly.security:wildfly-elytron-asn1:1.15.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.wildfly.security:wildfly-elytron-keystore:1.15.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.wildfly.security:wildfly-elytron-util:1.15.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.wildfly.security:wildfly-elytron-base:1.15.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.wildfly.security:wildfly-elytron-provider-util:1.15.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.wildfly.security:wildfly-elytron-x500:1.15.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.wildfly.security:wildfly-elytron-password-impl:1.15.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-agroal:1.13.4.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-datasource:1.13.4.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.narayana.jta:narayana-jta:5.10.6.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss:jboss-transaction-spi:7.6.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.spec.javax.resource:jboss-connector-api_1.7_spec:1.0.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.narayana.jts:narayana-jts-integration:5.10.6.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.agroal:agroal-api:1.11" level="project" />
+    <orderEntry type="library" name="Maven: io.agroal:agroal-narayana:1.11" level="project" />
+    <orderEntry type="library" name="Maven: io.agroal:agroal-pool:1.11" level="project" />
+    <orderEntry type="library" name="Maven: io.quarkus:quarkus-credentials:1.13.4.Final" level="project" />
   </component>
 </module>
