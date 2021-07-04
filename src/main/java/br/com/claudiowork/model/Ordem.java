@@ -2,13 +2,12 @@ package br.com.claudiowork.model;
 
 import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 
 @Data
 @AllArgsConstructor
@@ -23,7 +22,7 @@ public class Ordem extends PanacheEntityBase {
 
     private String tipo;
 
-    private LocalDateTime data;
+    private LocalDate data;
 
     private String status;
 
