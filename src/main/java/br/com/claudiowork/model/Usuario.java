@@ -7,7 +7,6 @@ import io.quarkus.security.jpa.Roles;
 import io.quarkus.security.jpa.UserDefinition;
 import io.quarkus.security.jpa.Username;
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -52,7 +51,7 @@ public class Usuario extends PanacheEntityBase {
     }
 
     @JsonbTransient
-    public String getPassword(){
+    public String getPassword() {
         return password;
     }
 }
